@@ -20,7 +20,7 @@ export const useNewsRewrite = () => {
         const data = await fetchAllNews();
         setNewsList(data);
         if (data.length > 0) {
-          setSelectedNewsId(data[0].id); // По умолчанию выбираем первую новость
+          setSelectedNewsId(data[0].id); 
         }
       } catch (err) {
         setError(err.message || 'Ошибка при загрузке новостей');
