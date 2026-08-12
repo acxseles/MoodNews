@@ -1,0 +1,6 @@
+@MoodNews_HostAddress = http://localhost:5139
+
+GET {{MoodNews_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
